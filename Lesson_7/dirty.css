@@ -1,0 +1,95 @@
+/*
+		Get Your Hands Dirty CSS
+		========================
+
+		Celalettin Aktürk
+		December 2023
+*/
+
+/* Simple CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: black url('images/chocolate.jpg') center center no-repeat;
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 40px;
+	color: grey;
+	-webkit-font-smoothing:antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	padding: 0 0 10px;
+	margin: 0 0 10px;
+}
+#container{
+	margin:0 ;
+	width:0 5px ;
+}
+.content-block {
+	background: url('images/transparent_white.jpg') top left repeat;
+	padding: 20px;
+	margin: 10px 0;
+}
+#content{
+	border: dotted 5px black;
+
+
+}
+#reserve {
+	border: dotted 5px white;
+	color: white;
+
+}
+#footer{
+	font-weight:bold ;
+	color: white;
+	font-size: 15px;
+}
+
+form {
+	text-align: left;
+	width: 300px;
+	margin: 20px 0;
+	padding: 5px;
+
+}
+form label {
+	margin: 2px 0;
+	display: block;
+	width: 500px;
+	padding: 5px;
+	font-size: 11px;
+	color: darkgrey;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+form input {
+	display: block;
+	width: 290px;
+	padding: 5px;
+	margin: 0 0 10px;
+	font-size: 15px;
+}
+form input[type="submit"] {
+	background: grey;
+	color: black;
+	cursor: pointer;
+	width: 150px;
+
+}
+
+img {
+	position: left;
+	width: 250px;
+	height: 250px;
+}
